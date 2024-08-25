@@ -1,0 +1,15 @@
+# config/config.yaml
+
+source_path: "/mnt/incremental/bronze/incremental/daily_sync.json"
+bronze_path: "/mnt/history/bronze/"
+silver_path: "/mnt/history/silver/"
+gold_path: "/mnt/history/gold/"
+
+tables:
+  - sales
+  - store
+  - category
+  - calendar
+  - county
+  - vendor
+  - item
